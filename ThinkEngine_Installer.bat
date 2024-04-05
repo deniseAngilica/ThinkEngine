@@ -11,4 +11,4 @@ xcopy /f "./bin/Debug/dlv2.exe" "./ThinkEngine/Assets/StreamingAssets/ThinkEngin
 xcopy /f "./bin/Debug/Editor/ThinkEngine.dll.meta" "./ThinkEngine/Assets/ThinkEngineer/ThinkEngine/Plugins/ThinkEngineDLL/" /Y
 xcopy /f "./bin/Debug/Editor/SensorTemplate.txt" "./ThinkEngine/Assets/Scripts/" /Y
 xcopy /f "./bin/Debug/Standalone/ThinkEngine.dll.meta" "./ThinkEngine/Assets/ThinkEngineer/ThinkEngine/Plugins/" /Y
-PowerShell compress-archive -force .\ThinkEngine\* .\ThinkEnginePlugin.zip
+7z a  ThinkEnginePlugin.zip .\ThinkEngine\* 
